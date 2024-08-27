@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./Img/large.sims-4-logo-pack-jeu-gamepack-strangerville-plumbob.png.51d5eeab78d279e3eeb67a35e94341c2.png">
+    <title>Simlish | Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <a class="contenedor-header" href="#" rel="">
+            <img src="./Img/ENCRIPTAR.svg" alt="Simlish Beta I Logo" class="logo">
+        </a>
+    </header>
+
+    <main>
+        <section class="contenedor-main">
+            <aside class="area-de-texto">
+                <textarea class="texto-uno" placeholder="Ingrese el texto aquí..."></textarea>
+                <div class="aviso">
+                    <img src="./Img/ENCRIPTAR (1).svg" alt="Condiciones del texto" class="aviso-elemento">
+                    <p class="aviso-texto">Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="botones">
+                    <button type="submit" class="boton-encriptar">ENCRIPTAR</button>
+                    <button type="submit" class="boton-desencriptar">DESENCRIPTAR</button>
+                </div>
+            </aside>
+            <aside class="area-encriptada">
+                <textarea type="mensaje" class="evaluar" readonly>¡Ningún mensaje fue encontrado! Ingresa el texto que desees encriptar o desencriptar...</textarea>
+                <div class="boton-copiar">
+                    <button onclick="copyText()" class="copiar">COPIAR</button>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <p class="copyright">“The Sims” pertenece a Ubisoft &copy;, el encriptador es un trabajo del alumno de ONE G7: Christopher N. Costilla</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
